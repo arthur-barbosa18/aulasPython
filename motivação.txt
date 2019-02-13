@@ -1,0 +1,54 @@
+Problema da mochila
+
+
+53 milhoes de rotas por segundo
+São 19! Rotas = x segs
+
+X = 19!/53 milhoes = 
+1.2 x 1017 / ( 53 milhões ) = 2.3 x 109 segundos 
+
+
+
+Problemas motivação
+
+Caixeiro viajante
+
+Suponha que um caixeiro viajante tenha de visitar n cidades diferentes, iniciando e encerrando sua viagem na primeira cidade. Suponha, também, que não importa a ordem com que as cidades são visitadas e que de cada uma delas pode-se ir diretamente a qualquer outra.
+O problema do caixeiro viajante consiste em descobrir a rota que torna mínima a viagem total.
+
+Exemplificando o caso n = 4:
+se tivermos quatro cidades A, B, C e D, uma rota que o caixeiro deve considerar poderia ser: saia de A e daí vá para B, dessa vá para C, e daí vá para D e então volte a A. Quais são as outras possibilidades ? É muito fácil ver que existem seis rotas possíveis: 
+
+Ab = 1
+Ac = 2
+Ad = 3
+Bc = 4
+Bd = 5
+cd= 6
+
+Definir as distancias
+Definir a menor distância total percorrida como zero inicalmente (ou seja inicializar)
+Percorrer cada uma das cidades partindo de A (por exemplo) e voltando para A.
+Somar a distância percorrida a cada ponto 
+Comparar com a menor distancia percorrida
+Se for menor, amarzenar esse distância calculada como a menor e a rota percorrida (ex, a-b-a-c-a-d) 
+Retornar ao passo 2 e repetir o processo até todas as cidades serem percorridas
+
+Ao fim será retornado a rota com a menor distância percorrida e qual é essa distância
+
+Qual o problema desse algoritmo?
+
+
+
+
+Suponhamos temos um muito veloz computador, capaz de fazer 1 bilhão de adições por segundo. Isso parece uma velocidade imensa, capaz de tudo. Com efeito, no caso de 20 cidades, o computador precisa apenas de 19 adições para dizer qual o comprimento de uma rota e então será capaz de calcular 109 / 19 = 53 milhões de rotas por segundo. Contudo, essa imensa velocidade é um nada frente à imensidão do número 19! de rotas que precisará examinar. Com efeito, acredite se puder, o valor de 19! é 121 645 100 408 832 000 ( ou , aproximadamente, 1.2 x 1017 em notação científica ). Consequentemente, ele precisará de
+1.2 x 1017 / ( 53 milhões ) = 2.3 x 109 segundos
+para completar sua tarefa, o que equivale a cerca de 73 anos . O problema é que a quantidade ( n - 1 )! cresce com uma velocidade alarmante, sendo que muito rapidamente o computador torna-se incapaz de executar o que lhe pedimos. Constate isso mais claramente na tabela a seguir:
+
+
+
+http://www.mat.ufrgs.br/~portosil/caixeiro.html
+
+
+
+http://mayerle.deps.prof.ufsc.br/private/eps7001/AlgoritmosCombinatoriaisGulosos.pdf
