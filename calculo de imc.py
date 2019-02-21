@@ -1,9 +1,16 @@
-
-
-Altura = float(input("Digite sua altura em metros e centimetros:\n"))
-Peso = float(input("Digite seu peso em kg:\n"))
+while True:
+	try:
+		Altura = float(input("Digite sua altura em metros e centimetros:\n"))
+		break
+	except ValueError:
+		print('Metros .(ponto) Centimetros')
+while True:
+	try:
+		Peso = float(input("Digite seu peso em kg:\n"))
+		break
+	except ValueError:
+		print('Quilos .(ponto) gramas')
 imc = (Peso) / (Altura**2)
-print(imc)
 
 
 if(imc < 16):
