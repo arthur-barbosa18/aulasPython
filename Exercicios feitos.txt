@@ -1,0 +1,7 @@
+para adicionar os arquvivos
+git add .
+para commitar os arquivos 
+git commit -m "um comentario explicando oq foi feito"
+git push, para subir tudo para o github
+
+git pull
