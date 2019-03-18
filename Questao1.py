@@ -13,7 +13,7 @@ def digite_novamente(msg):
 
 
 nota_invalida = True
-nota = digite_novamente()
+nota = digite_novamente('a')
 
 while(nota_invalida == True):
     if(nota < 0):
