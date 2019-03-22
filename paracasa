@@ -1,0 +1,13 @@
+mportar o random:
+import random
+
+Para usar:
+random.randint(0,12) #por exemplo
+#sempre um range com inicio e fim
+
+https://wiki.python.org.br/ExerciciosFuncoes (exercicio do craps, numero 10)
+E também todos os dos arquivos (que são 2) https://wiki.python.org.br/ExerciciosArquivos
+
+documentação do random:
+https://docs.python.org/3/library/random.html
+
