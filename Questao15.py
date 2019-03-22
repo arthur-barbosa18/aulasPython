@@ -11,10 +11,12 @@ e1 = 0
 e2 = 1
 print('-_-'*15)
 print({e1}, '->', {e2}, end='')
+#print('{} -> {}'.format(e1, e2), end='')
 cont = 3
 while cont <= n:
 	e3 = e1 + e2
 	print('->', {e3}, end='')
+	#print(" -> " +'{' + '{}'.format(e3) + '}', end='')
 	e1 = e2
 	e2 = e3
 	cont += 1
