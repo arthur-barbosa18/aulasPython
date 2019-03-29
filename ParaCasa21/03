@@ -1,0 +1,11 @@
+Para importar o random:
+import random
+
+Para usar:
+random.randint(0,12) #por exemplo
+#sempre um range com inicio e fim
+
+https://wiki.python.org.br/ExerciciosFuncoes
+
+documentação do random:
+https://docs.python.org/3/library/random.html
