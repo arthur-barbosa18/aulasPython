@@ -70,5 +70,6 @@ plt.arrow(x=eixo_x, y=vetor_de_probabilidades, dx=eixo_x, dy= eixo_x, label='pro
 
 plt.show()
 
+#documentação do pyplot https://matplotlib.org/api/_as_gen/matplotlib.pyplot.html
 
 # eu to comparando o quao distante na media está cada media da 
